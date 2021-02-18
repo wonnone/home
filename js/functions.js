@@ -699,30 +699,30 @@ jQuery($=> {
     });
 
     /*Testimonials*/
-    $("#testimonial-slider").owlCarousel({
-        items: 1,
-        autoplay: false,
-        autoplayHoverPause: true,
-        mouseDrag: false,
-        loop: true,
-        margin: 30,
-        animateIn: "fadeIn",
-        animateOut: "fadeOut",
-        dots: false,
-        nav: true,
-        navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
-        responsive: {
-            980: {
-                items: 1,
-            },
-            600: {
-                items: 1,
-            },
-            320: {
-                items: 1,
-            },
-        }
-    });
+    // $("#testimonial-slider").owlCarousel({
+    //     items: 1,
+    //     autoplay: false,
+    //     autoplayHoverPause: true,
+    //     mouseDrag: false,
+    //     loop: true,
+    //     margin: 30,
+    //     animateIn: "fadeIn",
+    //     animateOut: "fadeOut",
+    //     dots: false,
+    //     nav: true,
+    //     navText: ["<i class='fas fa-angle-left'></i>", "<i class='fas fa-angle-right'></i>"],
+    //     responsive: {
+    //         980: {
+    //             items: 1,
+    //         },
+    //         600: {
+    //             items: 1,
+    //         },
+    //         320: {
+    //             items: 1,
+    //         },
+    //     }
+    // });
     //gallery detail slider
     $("#carousel-gallery-detail").owlCarousel({
         items: 1,
