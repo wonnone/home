@@ -1037,10 +1037,10 @@ jQuery($=> {
     /* -------copy right year maker------ */
     let copyYear = new Date().getFullYear();
     let copyText = $('#year , #year1');
-    if (copyYear === 2019) {
+    if (copyYear === 2021) {
         copyText.text(copyYear);
     } else {
-        copyText.text('2019-' + copyYear);
+        copyText.text('2021-' + copyYear);
     }
 
     /* =====================================
