@@ -2656,7 +2656,7 @@ a.dropdown-toggle::after {
         top: -300px !important;
     }
     .full-map {
-        height: 540px !important;
+        height: 300px !important;
     }
 }
 
@@ -5562,10 +5562,11 @@ body:not(.rtl-layout) .readmore {
 /*map */
 
 .full-map {
-    height: 400px;
+    height: 300px;
     width: 100%;
     overflow: hidden;
     margin-bottom: 40px;
+    border-radius: 20px;
 }
 
 .short-map {
